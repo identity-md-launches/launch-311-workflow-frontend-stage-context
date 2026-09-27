@@ -1,0 +1,164 @@
+{
+  "startedAt": "2026-09-27T06:29:33.152Z",
+  "passA": {
+    "desktop": {
+      "audit": {
+        "h1Count": 1,
+        "mainCount": 1,
+        "lang": "en",
+        "unnamedButtons": [],
+        "unlabelledInputs": [],
+        "smallTargets": [],
+        "scrollWidth": 1280,
+        "innerWidth": 1280,
+        "headings": [
+          "H1 Noughts tic-tac-toe",
+          "H2 Your NGHT",
+          "H3 Getting NGHT",
+          "H2 Open a game",
+          "H2 Board",
+          "H2 Games",
+          "H2 Contracts and network"
+        ]
+      },
+      "consoleErrors": [],
+      "failedRequests": [],
+      "bodyIncludes": {
+        "poolRate": "Pool rate now: 0.",
+        "gameCount": "No games yet"
+      },
+      "focusOrder": [
+        "a \"Skip to content\" outline=solid 2px",
+        "a \"NGHT token 0xe0d98c90d2cb2507b36d1fd104f\" outline=solid 2px",
+        "input \"\" outline=solid 2px",
+        "button \"Refresh\" outline=solid 2px",
+        "select \"All gamesOpen gamesMy games\" outline=solid 2px",
+        "input \"\" outline=solid 2px",
+        "button \"Look up\" outline=solid 2px",
+        "a \"LaunchToken 0xe0d98c90d2cb2507b36d1fd104\" outline=solid 2px"
+      ],
+      "focusRingNeutral": {
+        "x": 1057.125,
+        "y": 415.1875,
+        "width": 86.875,
+        "height": 44,
+        "outline": "solid 2px rgb(29, 85, 168)",
+        "offset": "2px",
+        "tag": "BUTTON"
+      },
+      "focusRingLink": {
+        "x": 112,
+        "y": 660.578125,
+        "width": 252.046875,
+        "height": 42.5,
+        "outline": "solid 2px rgb(29, 85, 168)",
+        "offset": "2px",
+        "tag": "A"
+      }
+    },
+    "brokenAbiRefused": true,
+    "w320": {
+      "audit": {
+        "h1Count": 1,
+        "mainCount": 1,
+        "lang": "en",
+        "unnamedButtons": [],
+        "unlabelledInputs": [],
+        "smallTargets": [],
+        "scrollWidth": 320,
+        "innerWidth": 320,
+        "headings": [
+          "H1 Noughts tic-tac-toe",
+          "H2 Your NGHT",
+          "H3 Getting NGHT",
+          "H2 Open a game",
+          "H2 Board",
+          "H2 Games",
+          "H2 Contracts and network"
+        ]
+      },
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    "w768": {
+      "audit": {
+        "h1Count": 1,
+        "mainCount": 1,
+        "lang": "en",
+        "unnamedButtons": [],
+        "unlabelledInputs": [],
+        "smallTargets": [],
+        "scrollWidth": 768,
+        "innerWidth": 768,
+        "headings": [
+          "H1 Noughts tic-tac-toe",
+          "H2 Your NGHT",
+          "H3 Getting NGHT",
+          "H2 Open a game",
+          "H2 Board",
+          "H2 Games",
+          "H2 Contracts and network"
+        ]
+      },
+      "consoleErrors": [],
+      "failedRequests": []
+    }
+  },
+  "passB": {
+    "steps": [
+      "wrong network detected after connecting on chain 1",
+      "wallet_switchEthereumChain failed with 4902, wallet_addEthereumChain was offered, then the switch succeeded",
+      "connected: balance 1,000 NGHT, allowance 0, withdrawable 0 read from the chain",
+      "approve 5 NGHT confirmed; allowance shows 5 NGHT",
+      "game #0 opened with 5 NGHT and auto-selected; Cancel offered to the creator",
+      "player 2 approved and joined; game active, X to move, move clock running",
+      "X completed the top row; outcome shown, winning line marked, withdrawable 10 NGHT",
+      "withdraw confirmed; balance 1,005 NGHT, withdrawable 0",
+      "wallet rejection shown as an alert; no transaction sent",
+      "timeout claim disabled before the hour, enabled after evm_increaseTime, claimed 2 NGHT pot"
+    ],
+    "focusRingPrimary": {
+      "x": 204,
+      "y": 427.578125,
+      "width": 150.484375,
+      "height": 44,
+      "outline": "solid 2px rgb(29, 85, 168)",
+      "offset": "2px",
+      "tag": "BUTTON"
+    },
+    "focusRingCellLater": true,
+    "focusRingCell": {
+      "x": 594,
+      "y": 544.1875,
+      "width": 101.34375,
+      "height": 101.34375,
+      "outline": "solid 2px rgb(29, 85, 168)",
+      "offset": "2px",
+      "tag": "BUTTON"
+    },
+    "audit": {
+      "h1Count": 1,
+      "mainCount": 1,
+      "lang": "en",
+      "unnamedButtons": [],
+      "unlabelledInputs": [],
+      "smallTargets": [],
+      "scrollWidth": 1280,
+      "innerWidth": 1280,
+      "headings": [
+        "H1 Noughts tic-tac-toe",
+        "H2 Your NGHT",
+        "H3 Getting NGHT",
+        "H2 Open a game",
+        "H2 Game #1",
+        "H2 Games",
+        "H2 Contracts and network"
+      ]
+    },
+    "consoleErrors": [],
+    "failedRequests": []
+  },
+  "problems": [],
+  "finishedAt": "2026-09-27T06:30:05.885Z",
+  "ok": true
+}

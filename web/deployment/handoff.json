@@ -1,0 +1,51 @@
+{
+  "chainId": 11155111,
+  "repoUrl": "https://github.com/identity-md-launches/launch-282-tictactoewager",
+  "version": 1,
+  "launchId": "14ab260c-c63f-40c2-b1c4-8dbc94c39f89",
+  "manifest": {
+    "kind": "evm_project",
+    "pool": {
+      "fee": 3000,
+      "tickSpacing": 60,
+      "initialPrice": "79228162514264337593543950336",
+      "pairedCurrency": "0x0000000000000000000000000000000000000000"
+    },
+    "notes": "Sepolia test game with no real value. LaunchToken is defined in src/LaunchToken.sol and takes no constructor arguments. TicTacToeWager is defined in src/TicTacToeWager.sol; its sole constructor argument is the launch token address, stored immutably and exposed by token(). The application needs no NGHT balance at deployment, owner or initialization calls. Players obtain NGHT by swapping Sepolia ETH in the factory-seeded launch pool, approve NGHT stakes and collect credited payouts through withdraw(). The pool pairs with native ETH and has no hook. initialPrice is decimal sqrtPriceX96; a pinned policy specifying initialMarketCapWei determines the effective opening price. The factory supplies the LP and MerkleDistributor. Policy, signed artifact linkage, admission and deployment are handled by services.",
+    "token": {
+      "name": "Noughts",
+      "symbol": "NGHT",
+      "contract": "LaunchToken",
+      "decimals": 18
+    },
+    "contracts": [
+      {
+        "contract": "TicTacToeWager",
+        "constructorArgs": [
+          "$token"
+        ]
+      }
+    ]
+  },
+  "contracts": [
+    {
+      "name": "LaunchToken",
+      "txHash": "0xb58746fc113c6d06f5df8961bb8d72a77662d9766418b9e64519cf74630eaa04",
+      "abiHash": "f36d2fe28b62f817a4fba0b78bb501b41895eada3982280273c063ad8183f577",
+      "address": "0xe0d98c90d2cb2507b36d1fd104f110a80a07d9dd",
+      "blockNumber": 11791366,
+      "creationCodeHash": "b3e00c5f2b096a0294535b38c5ab24f443cecefa6390803ea751231c851302c0"
+    },
+    {
+      "name": "TicTacToeWager",
+      "txHash": "0xb58746fc113c6d06f5df8961bb8d72a77662d9766418b9e64519cf74630eaa04",
+      "abiHash": "89d7c2aef1073bbb42ca0d4c1940995ebadc86e47ee3822e918b2577b8a45aa4",
+      "address": "0x386d6d7a33c30a515dc09383225a42c50e266f98",
+      "blockNumber": 11791366,
+      "creationCodeHash": "f4fd8d113b60cbe90ad6754454efef528f9aa90263433d76eec8099411b986ff"
+    }
+  ],
+  "sourceCommit": "6f077123785d0ab280b4f1513807d028038c79e3",
+  "abiInstructions": "Build ABIs from this exact source commit; compare canonicalKeccak(abi) with abiHash. Verify deployed code on the stated chain before enabling transactions.",
+  "attestationHash": "62b71c31137c4d7c49bcdce5fde29d73c5f26aa4617a9a2dc34552d515adb51d"
+}

@@ -1,0 +1,12 @@
+# Dependencies and caches are never committed; run `npm ci` to restore them.
+node_modules/
+.vite/
+*.local
+
+# Generated for `vite dev` only by `node scripts/manifest.ts prepare`.
+# The committed copies live in the repository-root dist/ export.
+public/abi/
+public/imd-deployment.json
+
+# The production export is written to the repository root dist/, not here.
+dist/
